@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    caret-color: transparent;
+    scroll-behavior: smooth;
+    
+  }
+  :root {
+
+    --cl-p: #011422;
+    --cl-s:#EBF6FA;
+    --cl-a: #15ED95;
+    --outline: 1px solid red;
+    --font-mn:  "Comfortaa", sans-serif;
+    --font-sc:  "Advent Pro", sans-serif;
+
+  }
+body {
+  background-color: var(--cl-p);
+  color: var(--cl-s);
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* outline: auto; */
+  /* border-bottom: 3px solid var(--cl-a); */
+
+}
+
+#font-mn{
+
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+#font-sc {
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+
+.container {
+  width: min(1024px,95%);
+  margin: 0 auto;
+}
+

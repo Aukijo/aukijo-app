@@ -1,0 +1,42 @@
+.portfolio_main {
+    background-color: var(--cl-a);
+}
+.portfolio_head {
+    /* background-color: var(--cl-a); */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.collection_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+.logo_container {
+    border: 3px solid var(--cl-p);
+    height: 70px;
+    width: 70px;
+
+}
+.collection_title h3 {
+    color: var(--cl-p);
+    font-size: 25pt;
+    text-align: center;
+}
+.collection_title{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 900px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}

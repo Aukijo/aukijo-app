@@ -1,0 +1,51 @@
+.artwork_display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.artwork_container {
+    margin: 25px 0px;
+    display: flex;
+   
+}
+.artwork { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cl-a);
+    color: var(--cl-p);
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid var(--cl-a);
+    color: var(--cl-s);
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px;
+}
+.storyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: var(--cl-p);
+    background-color: var(--cl-a);
+    height: 25px;
+    width: 150px;
+    font-size: 15pt;
+    
+}
+
+.description h3 {
+    text-align: justify;
+    font-size: 11pt;
+    width: 280px;
+}

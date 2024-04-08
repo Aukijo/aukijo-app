@@ -1,0 +1,117 @@
+.page_main {
+    /* outline: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+.page_container { 
+  
+    display: grid;
+    grid-template-columns: 410px 450px;
+    grid-template-rows: 200px 500px;
+}
+
+.cont_a {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px 200px;
+    
+}.cont_b { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.i_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i {
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 170pt;
+}
+.am {
+    /* height: 200px; */
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    /* outline: auto; */
+    font-family: var(--font-sc);
+    font-weight: 900;
+    font-size: 170pt;
+}
+.cont_b h2 {
+    color: var(--cl-a);
+    font-family: var(--font-mn);
+    font-weight: 900;
+    font-size: 50pt;
+}
+.cont_b h1 {
+    color: var(--cl-p);
+    font-family: var(--font-mn);
+    font-weight: 900;
+    font-size: 50pt;
+    letter-spacing: 5px;
+
+    text-shadow: rgb(21, 237, 149) 1px 0px 0px, rgb(21, 237, 149) 0.540302px 0.841471px 0px, rgb(21, 237, 149) -0.416147px 0.909297px 0px, rgb(21, 237, 149) -0.989993px 0.14112px 0px, rgb(21, 237, 149) -0.653644px -0.756803px 0px, rgb(21, 237, 149) 0.283662px -0.958924px 0px, rgb(21, 237, 149) 0.96017px -0.279416px 0px;
+}
+.tag_cont {
+    margin: 50px 0px;
+ }
+.tag_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 120px;
+    padding: 20px;
+    margin: 10px 0px;
+    text-align: justify;
+    font-size: 10pt;
+}
+.tag_b {
+    /* outline: auto; */
+    font-size: 10pt;
+    margin: 10px 0px;
+}
+.links_cont {
+    
+    width: auto;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.social_head,.social_cont {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_link { 
+    height: 30px;
+    width: 30px;
+    /* background-color: var(--cl-a); */
+    margin: 0px 5px;
+}
+.cont_d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+

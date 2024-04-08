@@ -1,0 +1,114 @@
+.page_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social_cont { 
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 300px  300px  300px ;
+    /* outline: var(--outline); */
+}
+.grid_a,.grid_b,.grid_c,.grid_d,.grid_e,.grid_f {
+    /* outline: var(--outline); */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid_a {
+    grid-area: 1/1/2/2;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid var(--cl-s);
+}
+.grid_b {
+    grid-area: 2/2/-2/-2;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid var(--cl-s);
+}
+.grid_c {
+    grid-area: 3/2/4/1;
+    height: 100%;
+    width: 100%;
+    
+}
+.grid_d {
+    grid-area: 1/2/2/3;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid var(--cl-s);
+}
+.grid_e {
+    grid-area: 2/1/2/2;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid var(--cl-s);
+}
+.grid_f {
+    grid-area:3/2/3/-2;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.grid_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+}
+
+
+.social_link {
+    /* outline: var(--outline); */
+    width: 150px;
+    
+}
+.social_cont h1{
+    font-family: var(--font-sc);
+}
+.social_cont p {
+    margin: 15px 0px;
+    font-family: var(--font-mn);
+    width: 80%;
+   
+}
+
+.links {
+    background: linear-gradient(355deg, #011422, #15ed95);
+    background-size: 400% 400%;
+    color: var(--cl-s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:42% 0%}
+    50%{background-position:59% 100%}
+    100%{background-position:42% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:42% 0%}
+    50%{background-position:59% 100%}
+    100%{background-position:42% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:42% 0%}
+    50%{background-position:59% 100%}
+    100%{background-position:42% 0%}
+}
